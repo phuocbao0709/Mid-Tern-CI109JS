@@ -3,16 +3,6 @@ import { Input } from "antd";
 
 const Header = () => {
   return (
-    // <header className="flex gap-20 items-center justify-center w-full">
-    //   <h1 className="text-4xl font-bold">Anonime</h1>
-    //   <p className="text-gray-500">Home</p>
-    //   <p className="text-gray-500">List anime</p>
-    //   <Input
-    //     rootClassName="rounded-[20px]"
-    //     // style={{ borderRadius: "20px" }}
-    //     placeholder="Search anime or movie"
-    //   ></Input>
-    // </header>
     <nav className="flex flex-wrap items-center justify-between mb-10">
       <div className="flex items-center gap-12">
         <h1 className="text-3xl font-bold tracking-tight">Anonime</h1>
@@ -29,16 +19,16 @@ const Header = () => {
           style={{
             width: "100%",
             backgroundColor: "#2d3748",
-            borderRadius: "9999px" /* tương đương rounded-full */,
-            paddingLeft: "1.5rem" /* tương đương px-6 (6 * 0.25rem) */,
+            borderRadius: "9999px",
+            paddingLeft: "1.5rem",
             paddingRight: "1.5rem",
-            paddingTop: "0.5rem" /* tương đương py-2 (2 * 0.25rem) */,
+            paddingTop: "0.5rem",
             paddingBottom: "0.5rem",
             outline: "2px solid transparent",
-            outlineOffset: "2px" /* tương đương outline-none */,
-            fontSize: "0.875rem" /* tương đương text-sm */,
+            outlineOffset: "2px",
+            fontSize: "0.875rem",
             border: "1px solid transparent",
-            transition: "border-color 0.2s" /* giúp hiệu ứng mượt hơn */,
+            transition: "border-color 0.2s",
           }}
         />
       </div>

@@ -25,10 +25,9 @@ body {
 .search-input::placeholder,
 .search-input {
   color: white;
-  opacity: 0.7; /* Chỉnh độ mờ một chút để trông tự nhiên hơn, hoặc để 1 nếu muốn trắng tinh */
+  opacity: 0.7;
 }
 
-/* Hỗ trợ cho các trình duyệt cũ hơn nếu cần */
 .search-input::-webkit-input-placeholder {
   color: white;
 }

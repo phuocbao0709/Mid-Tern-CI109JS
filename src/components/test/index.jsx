@@ -1,25 +1,14 @@
 import React from "react";
 import { useState } from "react";
 
-const Test = (props) => {
-  const [opendes, setOpendes] = useState(false);
-
-  const handleDes = () => {
-    setOpendes(!opendes);
-  };
+const NewRelease = (props) => {
   return (
-    <div>
-      <img
-        src={props.image}
-        alt=""
-        style={{ height: "100px", width: "200px" }}
-        onClick={handleDes}
-      />
-      {props.episode}
-      {props.movieName}
-      {opendes && props.description}
+    <div className="flex flex-col justify-center items-center mt-3">
+      <img src={props.image} alt="" />
+      <p>{props.episode}</p>
+      <p> {props.movieName}</p>
     </div>
   );
 };
 
-export default Test;
+export default NewRelease;
